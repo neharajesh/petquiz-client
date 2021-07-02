@@ -1,0 +1,94 @@
+@import url("../styles.css");
+
+.appContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.topbarContainer {
+    height: 10vh;
+    width: 100%;
+    background-color: #A0D2DB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pageContainer {
+    height: 100%;
+    width: 100vw;    
+    display: flex;
+}
+
+.sidebarContainer {
+    height: 100%;
+    width: 30rem;
+    background-color: #cdedf6;
+}
+
+.screenContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    overflow-y: scroll;
+}
+
+.header-brand {
+    font-size: 2rem; 
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.header-brand:hover {
+    background-color: pink;
+    background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.navLink {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 1rem;
+}
+
+.navLink:hover {
+    background-color: pink;
+    background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
