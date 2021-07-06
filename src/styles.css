@@ -57,6 +57,7 @@ body {
     border-radius: 2px;
     background-color: #7BF1A8;
     cursor: pointer; 
+    text-align: center;
 }
 
 .quizPlayPageButton {
