@@ -21,7 +21,7 @@ export const Register = () => {
     return (<>
         <div>
             <Toaster />
-            <h1> Register Page </h1>
+            <h1> Register </h1>
             <div className="authContainer">
                 <div className="inputContainer">
                     <p> Username </p>
@@ -33,8 +33,6 @@ export const Register = () => {
                 </div>
                 <button onClick={() => signupHandler()} className="submitButton"> Register </button>
             </div>
-            <p> {username} </p>
-            <p> {password} </p>
         </div>
     </>)
 }

@@ -24,7 +24,7 @@ export const Login = () => {
     return (<>
         <div>
             <Toaster />
-            <h1> Login Page </h1>
+            <h1> Login </h1>
             <div className="authContainer">
                 <div className="inputContainer">
                     <p> Username </p>

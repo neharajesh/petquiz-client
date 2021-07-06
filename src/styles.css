@@ -15,6 +15,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
+    border-color: grey;
 }
 
 /* Utilities */
@@ -23,9 +24,10 @@ body {
 .h-15 { height: 15rem; }
 .display-block { display: block; }
 .display-none { display: none; }
+.bdr-grey { border-color: grey; }
 
 .quizCard {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
     height: 15rem;
     display: flex;
@@ -45,6 +47,7 @@ body {
     border-radius: 3px;
     margin: 0.5rem;
     font-size: 0.75em;
+    color: black;
 }
 
 .playButton {
@@ -58,6 +61,7 @@ body {
     background-color: #7BF1A8;
     cursor: pointer; 
     text-align: center;
+    color: black;
 }
 
 .quizPlayPageButton {

@@ -93,3 +93,15 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+/* Theme */
+.themeButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.darkTheme {
+    color: white;
+    background-color: #212121;
+}
