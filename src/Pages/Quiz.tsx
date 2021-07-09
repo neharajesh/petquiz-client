@@ -7,7 +7,7 @@ export const Quiz = () => {
 
     useEffect(() => {
         dispatch({type: "RESET_SCORE"})
-    }, [])
+    })
 
     return (<>
         <div className="w-100 flex flex-row-wrap mg-b-2 flex-items-center-x">

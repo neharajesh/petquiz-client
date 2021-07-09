@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useQuiz } from "../Components/Context/Quiz/QuizContext"
 
 export const ResultPage = () => {
