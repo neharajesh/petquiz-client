@@ -28,7 +28,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question }) => {
             <img className="w-100 mg-b-2" src={question.image} alt={question.questionText} />
             <p className="txt-l mg-025 mg-lr-1"> {question.questionText} </p>
             <p> Points : {question.points} </p>
-            {question.options.map(option => <div className={clicked===option._id ? "fill-secondary-yellow flex w-75 bdr-thin bdr-rad-m bdr-grey mg-1 pd-1 csr-point" : "flex w-75 bdr-thin bdr-rad-m bdr-grey mg-1 pd-1 csr-point"} key={option._id} onClick={() => checkAnswer(question, option)}>
+            {question.options.map(option => <div className={clicked===option._id ? "fill-secondary-yellow txt-black flex w-75 bdr-thin bdr-rad-m bdr-grey mg-1 pd-1 csr-point" : "flex w-75 bdr-thin bdr-rad-m bdr-grey mg-1 pd-1 csr-point"} key={option._id} onClick={() => checkAnswer(question, option)}>
                 <p> {option.optionText} </p> 
             </div>)}
             <p className="mg-2 txt-center"> {explanation} </p>

@@ -16,8 +16,13 @@ export const QuizPlayPage = () => {
 
     const showNextQuestion = () => {
         setQuestionNo(questionNo => questionNo + 1)
-        questionNo+1 === state.currentQuiz.questionsList.length ? navigate("/result") :
+        questionNo === state.currentQuiz.questionsList.length ? navigate("/result") :
         dispatch({type: "CHANGE_QUESTION", payload: state.currentQuiz.questionsList[questionNo]})
+    }
+
+    const abortQuizHandler = () => {
+        dispatch({ type: "RESET_SCORE" })
+        navigate("/quiz")
     }
 
     useEffect(() => {}, [questionNo])
@@ -33,10 +38,9 @@ export const QuizPlayPage = () => {
                     <p> Current Score : {state.currentScore} </p>
                     <QuestionCard question={state.currentQuestion} />
                     <div className="flex flex-items-center-x">
-                        <button className="quizPlayPageButton" onClick={() => showNextQuestion()}> Next Question </button>
-                        <button className="quizPlayPageButton"> Abort Quiz </button>  
-                    </div>
-                                
+                        <button className="quizPlayPageButton fill-primary-green" onClick={() => showNextQuestion()}> Next Question </button>
+                        <button className="quizPlayPageButton fill-primary-red" onClick={() => abortQuizHandler()}> Abort Quiz </button>  
+                    </div>                                
                 </div>
             </div>
         </div>

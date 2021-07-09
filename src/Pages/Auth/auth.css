@@ -14,16 +14,28 @@
     width: 30rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem;    
 }
 
 .inputField {
     width: 18rem;
-    padding: 0.25rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.inputField:focus {
+    border: 1px solid grey;
+    border-radius: 3px;
 }
 
 .submitButton {
     width: 5rem;
     margin-top: 1rem;
     padding: 0.5rem;
+    background-color: #FBC3BC;
+    border: none;
+    border-radius: 3px;
 }

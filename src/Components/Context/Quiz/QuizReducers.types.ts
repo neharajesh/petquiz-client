@@ -24,4 +24,5 @@ export type QuizActions =
 | { type: "DECREMENT_SCORE" }
 | { type: "CHANGE_QUESTION", payload: QuestionType }
 | { type: "ADD_SELECTED_ANSWER", payload: SelectedAnswersType[] }
+| { type: "RESET_SCORE" }
 | { type: "RESET_QUIZ" }

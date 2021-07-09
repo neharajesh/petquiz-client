@@ -83,6 +83,11 @@ export const quizReducerFunction = (state: QuizState, action: QuizActions): Quiz
                 ...state,
                 currentQuizAnswers: action.payload
             }
+        case "RESET_SCORE": 
+            return {
+                ...state,
+                currentScore: 0
+            }
         case "RESET_QUIZ": 
             return initialQuizState
         default:
