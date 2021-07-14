@@ -11,4 +11,4 @@ Coming Soon :
 - Player Stats.
 - Score Leaderboard.
 
-Backend : https://github.com/neharajesh/petcare-plm-backend/tree/dev
+Backend : https://github.com/neharajesh/petquiz-server/tree/dev
