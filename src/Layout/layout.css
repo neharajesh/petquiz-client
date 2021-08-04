@@ -27,12 +27,12 @@
 }
 
 .screenContainer {
-    height: 87vh;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 7rem;
     overflow-y: scroll;
 }
 

@@ -73,3 +73,12 @@ body {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.playNowButton {
+    text-decoration: none;
+    border: none;
+    background-color: #A0D2DB;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    color: black;
+}
